@@ -9,7 +9,4 @@ export const uikit = UIkit;
 })
 export class AppComponent {
   title = 'title changed';
-  showAlert(): void {
-    UIkit.modal.alert('UIkit alert!');
-  }
 }
