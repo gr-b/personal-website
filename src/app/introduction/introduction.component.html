@@ -1,12 +1,15 @@
-<div class="uk-container-center uk-text-left" uk-grid>
-  <div>
-  <div class="uk-card uk-card-default uk-card-body">
-    <div class="uk-container">
-      <img [src]="imageURL">
+<div class="container">
+  <div class="row uk-card uk-card-default uk-card-body introduction">
+    <div class="col-xs-12 col-md-6">
+      <div>
+        <img class="profile-image" [src]="imageURL">
+      </div>
     </div>
-    <div class="uk-card uk-card-default uk-card-body uk-text-left">
-      <h1 class="uk-heading-divider">Griffin Bishop</h1>
+    <div class="col-xs-12 col-md-6">
+      <div class="profile-text">
+        <h1 class="uk-heading-divider">{{bigText}}</h1>
+        <h3>{{underText}}</h3>
+      </div>
     </div>
-  </div>
   </div>
 </div>

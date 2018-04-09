@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IntroductionComponent implements OnInit {
   imageURL: string;
+  bigText: string;
+  underText: string;
 
   constructor() {
     this.imageURL = 'https://i.imgur.com/JhG9ppn.jpg';
+    this.bigText = 'Griffin Bishop';
+    this.underText = 'Software Engineer interested in Data Science and Machine Learning';
   }
 
   ngOnInit() {
