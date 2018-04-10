@@ -1,12 +1,15 @@
-h1, .icon {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
 h1 {
   color: #c0c0c0;
   text-decoration:none;
   font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 20px;
+  }
 }
 
 a:hover {
@@ -16,4 +19,6 @@ a:hover {
 .icon {
   height: 30px;
   width: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }

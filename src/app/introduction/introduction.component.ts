@@ -13,7 +13,7 @@ export class IntroductionComponent implements OnInit {
   constructor() {
     this.imageURL = 'https://i.imgur.com/JhG9ppn.jpg';
     this.bigText = 'Griffin Bishop';
-    this.underText = 'Software Engineer interested in Data Science and Machine Learning';
+    this.underText = 'Site currently under construction';
   }
 
   ngOnInit() {
