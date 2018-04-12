@@ -1,4 +1,4 @@
-ng build --prod --base-href "https://gr-b.github.io/personal-website"
+ng build --prod --base-href "./"
 rm -rf docs
 mv dist docs
 echo "griffinbishop.com" >> docs/CNAME
