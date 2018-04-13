@@ -1,2 +1,3 @@
-# gr-b.github.io
-Personal Website
+# griffinbishop.com
+Personal Website (griffinbishop.com)
+Angular & Bootstrap
