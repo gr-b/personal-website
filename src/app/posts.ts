@@ -3,22 +3,26 @@ import { PostInfo } from './postInfo';
 export const POSTS: PostInfo[] = [
   {
     title: 'Wayfair',
-    description: 'Internship 2',
+    date: 'Summer 2018',
+    description: 'Summer 2018',
     image: 'https://d2xsegqaa8s978.cloudfront.net/wayfair_0.0.4_staging/assets/logo.png'
   },
   {
     title: 'Datto',
-    description: 'Internship 1',
+    date: 'Summer 2017',
+    description: 'Summer 2017',
     image: 'https://d2xsegqaa8s978.cloudfront.net/wayfair_0.0.4_staging/assets/logo.png'
   },
   {
     title: 'iD Tech',
-    description: 'Was an instructor',
+    date: 'Summer 2016',
+    description: 'Summer 2016',
     image: 'https://d2xsegqaa8s978.cloudfront.net/wayfair_0.0.4_staging/assets/logo.png'
   },
   {
-    title: 'ARC MASH Leader and Tutor',
-    description: 'WPI ARC',
+    title: 'WPI ARC',
+    date: '2016-present',
+    description: '2016-present',
     image: 'https://d2xsegqaa8s978.cloudfront.net/wayfair_0.0.4_staging/assets/logo.png'
   }
 ];
