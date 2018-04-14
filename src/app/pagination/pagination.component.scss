@@ -1,3 +1,7 @@
+.pagination-container {
+  margin-top: 30px;
+}
+
 .div-center {
   align-items: center;
   justify-content: center;
@@ -5,13 +9,33 @@
 }
 
 .outline-button {
-    border: 2px solid #cce6ff;
+    border: 1px solid #bfbfbf;
     background-color: white;
     color: black;
-    padding: 14px 28px;
-    font-size: 16px;
+    padding: 20px 28px;
+    font-size: 24px;
     cursor: pointer;
 
-    display: block;
     width: 100%;
+    border-radius: 6px;
+}
+
+.outline-button:hover {
+  background-color: #e6e6e6;
+}
+
+@media (max-width: 800px) {
+  .outline-button {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 420px) {
+  .outline-button {
+    padding: 14px 0px;
+    font-size: 12px;
+  }
+  .pagination-container {
+    margin-top: 0px;
+  }
 }
