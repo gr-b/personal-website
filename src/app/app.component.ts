@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { PostInfo } from '../postInfo'
 declare var UIkit:any;
 export const uikit = UIkit;
 
@@ -8,5 +9,4 @@ export const uikit = UIkit;
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'title changed';
 }

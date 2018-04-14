@@ -12,4 +12,8 @@ export class PaginationComponent implements OnInit {
   ngOnInit() {
   }
 
+  work() {
+
+  }
+
 }

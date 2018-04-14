@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { IntroductionComponent } from './introduction/introduction.component';
 import { HeaderBarComponent } from './header-bar/header-bar.component';
 import { PaginationComponent } from './pagination/pagination.component';
+import { PostComponent } from './post/post.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { PaginationComponent } from './pagination/pagination.component';
     AppComponent,
     IntroductionComponent,
     HeaderBarComponent,
-    PaginationComponent
+    PaginationComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule
