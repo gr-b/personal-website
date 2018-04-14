@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { PostInfo } from '../postInfo'
+import { PostInfo } from './postInfo'
 declare var UIkit:any;
 export const uikit = UIkit;
 
