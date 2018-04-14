@@ -1,5 +1,6 @@
 .pagination-container {
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .div-center {
@@ -12,7 +13,7 @@
     border: 1px solid #bfbfbf;
     background-color: white;
     color: black;
-    padding: 20px 28px;
+    padding: 20px 0px;
     font-size: 24px;
     cursor: pointer;
 
@@ -33,7 +34,7 @@
 @media (max-width: 420px) {
   .outline-button {
     padding: 14px 0px;
-    font-size: 12px;
+    font-size: 16px;
   }
   .pagination-container {
     margin-top: 0px;
