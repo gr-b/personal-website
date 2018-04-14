@@ -1,0 +1,17 @@
+.div-center {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.outline-button {
+    border: 2px solid #cce6ff;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+
+    display: block;
+    width: 100%;
+}
