@@ -12,8 +12,8 @@ export class PaginationComponent implements OnInit {
   ngOnInit() {
   }
 
-  work() {
-
+  showContent(which: string) {
+    console.log(which);
   }
 
 }

@@ -4,18 +4,11 @@
   display: flex;
 }
 
-.post-title-div {
-  text-align: center;
-}
-.post-title-div>h1 {
-  margin: 5px;
-}
-
-.post-date-div {
-  text-align: left;
-  margin-top: 20px;
-}
-
 .post-row {
   height: 50vh;
+}
+
+.post-row>div>img {
+  width: 400px;
+  margin-top: 15vh;
 }
