@@ -1,6 +1,7 @@
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-sm-12 post-row" *ngFor="let post of posts" [style.backgroundColor]="post.color">
+<div class="container-fluid" id="work">
+  <div class="row" *ngFor="let post of posts">
+    <div class="col-sm-12" id="bottom-page" style="height: 10vh; min-height: 10vh;" [style.backgroundColor]="post.aboveColor"></div>
+    <div class="col-sm-12 post-row"  [style.backgroundColor]="post.color">
       <div class="container">
         <div class="row post-row">
           <div class="col-sm-8">
@@ -12,4 +13,5 @@
 
     </div>
   </div>
+  <div class="col-sm-12" id="bottom-page" style="height: 10vh; min-height: 10vh; background-color: #00B2FF"></div>
 </div>

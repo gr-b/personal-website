@@ -10,10 +10,17 @@ export class PaginationComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    //$('#work').hide();
   }
 
   showContent(which: string) {
     console.log(which);
+    if(which === 'work'){
+      $('#work').show();
+      window.location.href = '#bottom-page';
+    } else {
+      $('#work').hide();
+    }
   }
 
 }
