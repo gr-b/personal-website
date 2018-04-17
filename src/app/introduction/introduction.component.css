@@ -1,12 +1,13 @@
 .introduction {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .profile-image {
     border-radius: 50%;
     width: 300px;
     height: 300px;
+    margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {
@@ -19,5 +20,12 @@
 @media (max-width: 767px) {
   .profile-image-container {
     text-align: center;
+  }
+  .profile-text {
+    text-align: center;
+  }
+  .introduction {
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
