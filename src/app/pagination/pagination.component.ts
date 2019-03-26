@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import $ = require('jquery');
+
+
 
 @Component({
   selector: 'app-pagination',
