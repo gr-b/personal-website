@@ -24,6 +24,14 @@ export class PaginationComponent implements OnInit {
     } else {
       $('#work').hide();
     }
+
+    if(which === 'resume'){
+      $('#resume').show();
+      window.location.href = '#resume';
+      //window.location.href = '/assets/grbishop_resume.pdf';
+    } else {
+      $('#resume').hide();
+    }
   }
 
 }

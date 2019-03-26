@@ -1,6 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { PostInfo } from '../postInfo'
 import { POSTS } from '../posts';
+import $ = require('jquery');
 
 @Component({
   selector: 'app-post',
@@ -9,11 +10,14 @@ import { POSTS } from '../posts';
 })
 export class PostComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+
+  }
 
   ngOnInit() {
+    $("#work").hide();
   }
-  
-  posts = POSTS;
 
+
+  posts = POSTS;
 }

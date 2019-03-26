@@ -7,6 +7,7 @@ import { IntroductionComponent } from './introduction/introduction.component';
 import { HeaderBarComponent } from './header-bar/header-bar.component';
 import { PaginationComponent } from './pagination/pagination.component';
 import { PostComponent } from './post/post.component';
+import { ResumeComponent } from './resume/resume.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { PostComponent } from './post/post.component';
     IntroductionComponent,
     HeaderBarComponent,
     PaginationComponent,
-    PostComponent
+    PostComponent,
+    ResumeComponent
   ],
   imports: [
     BrowserModule

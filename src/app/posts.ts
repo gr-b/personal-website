@@ -4,7 +4,7 @@ export const POSTS: PostInfo[] = [
   {
     title: 'Wayfair',
     date: 'Summer 2018',
-    aboveColor: '#f2f2f2',
+    aboveColor: '#ffffff',
     color: '#0085BF',
     description: 'Summer 2018',
     image: 'https://i.imgur.com/mL9PqoC.png'
