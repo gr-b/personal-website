@@ -19,7 +19,7 @@ export class IntroductionComponent implements OnInit {
     //this.imageURL = 'https://i.imgur.com/tq5xf58.jpg'; // Also good
 
     this.bigText = 'Griffin Bishop';
-    this.underText = 'Rower, Software Engineer, and Statistical Learning enthusiast';
+    this.underText = 'Rower, Software Engineer, and Machine Learning enthusiast';
   }
 
   ngOnInit() {
