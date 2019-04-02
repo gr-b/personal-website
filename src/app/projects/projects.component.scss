@@ -56,3 +56,20 @@
     margin-bottom: 20px;
   }
 }
+
+.project-link {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+@media (max-width: 767px) {
+  .project-link {
+    position: relative;
+    float: right;
+  }
+}
+
+.description-link-container {
+  min-height: 30vh;
+}

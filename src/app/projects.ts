@@ -13,16 +13,4 @@ export const PROJECTS: ProjectsInfo[] = [
     image: 'https://i.imgur.com/HcrJ1FP.png',
     url: "https://github.com/gr-b/autoencoder-latent-space-visualization"
   },
-  {
-    title: 'iD Tech',
-    description: '',
-    image: 'https://i.imgur.com/H3LokKn.png',
-    url: "https://github.com/gr-b/autoencoder-latent-space-visualization"
-  },
-  {
-    title: 'WPI ARC',
-    description: '',
-    image: 'https://i.imgur.com/Vl8qEa5.png',
-    url: "https://github.com/gr-b/autoencoder-latent-space-visualization"
-  }
 ];
