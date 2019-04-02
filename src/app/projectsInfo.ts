@@ -1,4 +1,4 @@
-export class PostInfo {
+export class ProjectsInfo {
   title: string;
   image: string;
   description: string;
