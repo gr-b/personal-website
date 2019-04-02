@@ -11,7 +11,9 @@ export class IntroductionComponent implements OnInit {
   underText: string;
 
   constructor() {
-    this.imageURL = 'https://i.imgur.com/BOhQe0n.jpg';
+    //--->this.imageURL = 'https://i.imgur.com/BOhQe0n.jpg';
+    this.imageURL = '/assets/profile_picture.jpg';
+
 
     //this.imageURL = 'https://i.imgur.com/LzrDFMo.jpg';
 
