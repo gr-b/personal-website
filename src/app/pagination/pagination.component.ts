@@ -18,12 +18,14 @@ export class PaginationComponent implements OnInit {
 
   showContent(which: string) {
     console.log(which);
-    if(which === 'work'){
-      $('#work').show();
+    if(which === 'projects'){
+      $('#projects').show();
       window.location.href = '#bottom-page';
     } else {
-      $('#work').hide();
+      $('#projects').hide();
     }
+
+
 
     if(which === 'resume'){
       $('#resume').show();

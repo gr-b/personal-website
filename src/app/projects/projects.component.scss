@@ -1,0 +1,54 @@
+.div-center {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.project-row {
+  height: 50vh;
+  width: 90vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.project-row>div>img {
+  width: 400px;
+  margin-top: 15vh;
+}
+
+
+.introduction {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.project-image {
+    border: 1px #c0c0c0;
+    border-style: groove;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .project-image {
+    max-width: 200px;
+    max-height: 200px;
+  }
+}
+
+@media (max-width: 767px) {
+  .project-image-container {
+    text-align: center;
+  }
+  .project-text {
+    text-align: center;
+    padding-top: 40px;
+  }
+  .introduction {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

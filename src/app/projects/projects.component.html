@@ -1,0 +1,39 @@
+<div class="container-fluid" id="projects">
+  <div style="text-align: center;"><h1> Projects </h1></div>
+  <div class="container">
+    <hr class="uk-divider-icon">
+  </div>
+
+  <div class="row" *ngFor="let project of projects">
+
+    <div class="col-sm-12">
+
+      <div class="row">
+
+      <div class="uk-card-default project-row introduction">
+        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+          <div class="container project-image-container">
+            <img class="project-image" [src]="project.image">
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+          <div class="project-text">
+            <h3 class="uk-heading-divider">{{project.title}}</h3>
+            <p>{{project.description}}</p>
+          </div>
+        </div>
+      </div>
+
+      </div>
+
+
+    </div>
+  </div>
+
+
+  <div class="container" id="bottom-page">
+    <hr class="uk-divider-icon">
+  </div>
+  <div class="col-sm-12" style="height: 10vh; min-height: 10vh;"></div>
+
+</div>
