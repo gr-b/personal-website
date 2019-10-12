@@ -1,12 +1,8 @@
 <div class="container" id="projects">
   <div style="text-align: center;"><h1> Projects </h1></div>
-  <div class="container">
-    <hr class="uk-divider-icon">
-  </div>
+  <hr class="uk-divider-icon">
 
   <div class="row" *ngFor="let project of projects">
-
-
 
       <div class="uk-card-default project-row">
         <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
@@ -14,6 +10,7 @@
             <img class="project-image" [src]="project.image">
           </div>
         </div>
+
         <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 description-link-container">
           <div class="project-text">
             <h3 class="uk-heading-divider">{{project.title}}</h3>
@@ -22,9 +19,6 @@
 
           <a [href]="project.url" class="uk-icon-button project-link" uk-icon="icon: sign-in; ratio: 3"></a>
         </div>
-
-
-
       </div>
 
 

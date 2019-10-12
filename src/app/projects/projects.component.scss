@@ -1,14 +1,6 @@
-.div-center {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-}
-
 .project-row {
-  height: 40vh;
-  margin-left: 5vw;
-  margin-right: 5vw;
   margin-top: 7vh;
+  width: 100%;
 }
 
 .project-row>div>img {
@@ -70,5 +62,5 @@
 }
 
 .description-link-container {
-  min-height: 30vh;
+  min-height: 20vh;
 }
