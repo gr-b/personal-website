@@ -20,7 +20,9 @@ export class PaginationComponent implements OnInit {
     if(which === 'projects'){
       $('#projects').show();
       $('#introduction').hide()
-      window.location.href = '#bottom-page';
+      window.setTimeout(function () {
+        $('#introduction').show();
+      }, 5000);
     } else {
       $('#projects').hide();
     }
