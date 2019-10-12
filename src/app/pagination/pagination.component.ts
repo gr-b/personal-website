@@ -28,9 +28,9 @@ export class PaginationComponent implements OnInit {
 
 
     if(which === 'resume'){
-      $('#resume').show();
-      window.location.href = '#resume';
-      //window.location.href = '/assets/grbishop_resume.pdf';
+      //$('#resume').show();
+      //window.location.href = '#resume';
+      window.location.href = '/assets/grbishop_resume.pdf';
     } else {
       $('#resume').hide();
     }
