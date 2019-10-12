@@ -17,12 +17,16 @@ export class PaginationComponent implements OnInit {
   }
 
   showContent(which: string) {
-    console.log(which);
     if(which === 'projects'){
       $('#projects').show();
+      $('#introduction').hide()
       window.location.href = '#bottom-page';
     } else {
       $('#projects').hide();
+    }
+
+    if (which === "home") {
+      $('#introduction').show();
     }
 
 
@@ -31,8 +35,6 @@ export class PaginationComponent implements OnInit {
       //$('#resume').show();
       //window.location.href = '#resume';
       window.location.href = '/assets/grbishop_resume.pdf';
-    } else {
-      $('#resume').hide();
     }
   }
 
