@@ -17,6 +17,30 @@ export const PROJECTS: ProjectsInfo[] = [
     title: 'Why Uber Failed in China (Captstone)',
     description: '',
     image: '/assets/inquiry.png',
-    url: "/assets/inquiry.pdf"
+    url: "/assets/why_uber_failed_in_china.pdf"
+  },
+  {
+    title: 'Working Memory Test',
+    description: '',
+    image: '/assets/memory.png',
+    url: "http://gr-b.github.io/memorytest/memory.html"
+  },
+  {
+    title: 'Quickgraph Utility',
+    description: '',
+    image: '/assets/quickgraph.png',
+    url: "https://gr-b.github.io/quickgraph/"
+  },
+  {
+    title: 'Sorting Algorithm Visualizer',
+    description: '',
+    image: '/assets/sortviz.png',
+    url: "https://gr-b.github.io/sorts/index.html"
+  },
+  {
+    title: 'PUBattlegrounds Win Factor Analysis',
+    description: '',
+    image: '/assets/pubg.png',
+    url: "https://docs.google.com/presentation/d/e/2PACX-1vT5rrLU6FyhLnT4_H5QsSFHlb0V-PK7eNtxDbdeJzxcV6IwLhrSSyacnsJ91_X5IEGxyboNBcmPxw_L/pub?start=false&loop=false&delayms=3000"
   },
 ];
